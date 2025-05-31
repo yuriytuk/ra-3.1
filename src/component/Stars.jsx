@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css'
 
-function Stars({count}) {
+const Stars = ({ count }) => {
     return (
         <>
             <ul className="card-body-stars u-clearfix">
